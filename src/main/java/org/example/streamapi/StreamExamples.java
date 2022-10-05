@@ -10,20 +10,20 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-
 public class StreamExamples {
 
     public static void main(String[] args) {
-        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
+
+        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 5);
         List<String> names = Arrays.asList("Reflection", "Collection", "Stream", "Java");
-        Object evenOnly;
-        IntPredicate = evenOnly = x -> x % 2 == 0;
+        IntPredicate evenOnly = x -> x % 2 == 0;
         Predicate<Integer> evenOnlyPredicate = x -> x % 2 == 0;
 
-        // Intermediate operations
+        // intermediate operations
 
         // map
-        List<Integer> square = numbers.stream().map(x -> x * x) //monad
+        List<Integer> square = numbers.stream()
+                .map(x -> x * x)
                 .collect(Collectors.toList());
         square.forEach(System.out::println);
 
@@ -39,14 +39,13 @@ public class StreamExamples {
                 .collect(Collectors.toList());
         result2.forEach(System.out::println);
 
+        // terminal functions
 
-        // Terminal functions
-
-        //collect
+        // collect
         Set<Integer> squared = numbers.stream()
-                .filter(s -> s.startsWith("S"))
-                .collect(Collectors.toList());
-        result.forEach(System.out::println);
+                .map(x -> x * x)
+                .collect(Collectors.toSet());
+        squared.forEach(System.out::println);
 
         // forEach
         numbers.stream()
@@ -63,18 +62,18 @@ public class StreamExamples {
         }
         System.out.println("Even sum: " + sum);
 
-        int evenSum = numbers
-                .stream()
+        int evenSum = numbers.stream()
                 .filter(evenOnlyPredicate)
                 .reduce(0, (acc, x) -> acc + x);
         System.out.println("Even sum: " + evenSum);
+
 
         // int stream
         int totalSum = IntStream.iterate(0, x -> x + 1)
                 .skip(5)
                 .limit(5)
                 .filter(evenOnly)
-                .reduce(2, Integer :: sum);
+                .reduce(2, Integer::sum);
         System.out.println("Total sum: " + totalSum);
 
         // random ints
@@ -83,13 +82,11 @@ public class StreamExamples {
                 .limit(50)
                 .forEach(System.out::println);
 
-        //IntStream generate
+        // IntStream generate
         final AtomicInteger counter = new AtomicInteger(1);
         IntStream.generate(counter::getAndIncrement)
                 .filter(evenOnly)
                 .limit(10)
                 .forEach(System.out::println);
-
-
     }
 }

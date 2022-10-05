@@ -1,12 +1,11 @@
 package org.example.lambda;
 
-import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
-
-import static org.example.inheritance.animal.HighOrderBehaviors.value;
 
 public class LambdaDemo {
     public static void main(String[] args) {
@@ -30,13 +29,9 @@ public class LambdaDemo {
 
         myList.stream()
                 .sorted()
-                .filter(x 0> x.startsWith("c"))
+                .filter(x -> x.startsWith("c"))
                 .map(String::toUpperCase)
                 .forEach(System.out::println);
-
-
     }
-
-    x -> x * 2
 
 }

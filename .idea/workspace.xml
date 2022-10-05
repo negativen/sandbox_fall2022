@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b118df03-4172-4426-a1e4-8ada5f5375e1" name="Changes" comment="Fibonacci">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptions/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptions/DivideByZeroException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/Crate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/GenericUsage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inheritance/animal/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inheritance/animal/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inheritance/animal/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inheritance/animal/HighOrderBehaviors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inheritance/animal/Reptile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/inheritance/animal/Zookeeper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lambda/LambdaDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streamapi/StreamExamples.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/collections/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/generics/Crate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/Crate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/generics/GenericUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/GenericUsage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lambda/LambdaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lambda/LambdaDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/streamapi/StreamExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/streamapi/StreamExamples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,16 +46,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\wilsn\Documents\IntelliJ\School\Fall 2022\sandbox_fall2022\src" />
@@ -163,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661914254782</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fibonacci">
+      <created>1664937072648</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664937072648</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
