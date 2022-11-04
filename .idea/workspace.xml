@@ -5,11 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b118df03-4172-4426-a1e4-8ada5f5375e1" name="Changes" comment="Fibonacci">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collectionexample/AttendanceData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/collectionexample/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/deque/ArrayListDeque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/deque/Deque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/performance/CollectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/performance/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/performance/recursion/Euclid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/performance/recursion/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/queues/ArrayListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/queues/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/ArrayListStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/stack/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/streamapi/StringGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/collections/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/collections/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/generics/Crate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/Crate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/generics/GenericUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/generics/GenericUsage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lambda/LambdaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lambda/LambdaDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/streamapi/StreamExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/streamapi/StreamExamples.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,24 +55,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wilsn/Downloads/project-4-initial-master&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.deque" />
+      <recent name="org.example.collectionexample" />
+      <recent name="org.example.stack" />
+      <recent name="org.example.streamapi" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\wilsn\Documents\IntelliJ\School\Fall 2022\sandbox_fall2022\src" />
       <recent name="C:\Users\wilsn\Documents\IntelliJ\School\Fall 2022\sandbox_fall2022\src\test" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.recursion" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.StreamExamples">
+  <component name="RunManager" selected="Application.Euclid">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.exceptions.Calculator" />
       <module name="sandbox_fall2022" />
@@ -90,12 +109,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.generics.GenericUsage" />
+    <configuration name="Euclid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.recursion.Euclid" />
       <module name="sandbox_fall2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.generics.*" />
+          <option name="PATTERN" value="org.example.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.recursion.Fibonacci" />
+      <module name="sandbox_fall2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,26 +148,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zookeeper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.inheritance.animal.Zookeeper" />
-      <module name="sandbox_fall2022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.inheritance.animal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Euclid" />
+        <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.StreamExamples" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Calculator" />
-        <item itemvalue="Application.GenericUsage" />
-        <item itemvalue="Application.Zookeeper" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664937072648</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fibonacci">
+      <created>1664937615931</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664937615931</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -1,14 +1,12 @@
 package org.example.streamapi;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Random;
-import java.util.Set;
+import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.IntPredicate;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 public class StreamExamples {
 
@@ -88,5 +86,14 @@ public class StreamExamples {
                 .filter(evenOnly)
                 .limit(10)
                 .forEach(System.out::println);
+
+        // random string generator
+        String randomString = Stream.generate(new StringGenerator())
+                .limit(16)
+                .collect(Collectors.joining());
+        System.out.println(randomString);
+
+        System.out.println(UUID.randomUUID().toString());
+
     }
 }
